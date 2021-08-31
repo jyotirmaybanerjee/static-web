@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/Users/j0b04dd/personal/projects/manami/game/static-web/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/j0b04dd/personal/projects/manami/game/static-web/src/pages"
+      }
+    ],
+    "/Users/j0b04dd/personal/projects/manami/game/static-web/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/j0b04dd/personal/projects/manami/game/static-web/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/j0b04dd/personal/projects/manami/game/static-web"
+  ],
+  "paths": {
+    "ROOT": "/Users/j0b04dd/personal/projects/manami/game/static-web",
+    "SRC": "/Users/j0b04dd/personal/projects/manami/game/static-web/src",
+    "DIST": "/Users/j0b04dd/personal/projects/manami/game/static-web/dist",
+    "ASSETS": "/Users/j0b04dd/personal/projects/manami/game/static-web/dist",
+    "PLUGINS": "/Users/j0b04dd/personal/projects/manami/game/static-web/plugins",
+    "TEMP": "/Users/j0b04dd/personal/projects/manami/game/static-web/tmp",
+    "ARTIFACTS": "/Users/j0b04dd/personal/projects/manami/game/static-web/artifacts",
+    "PUBLIC": "/Users/j0b04dd/personal/projects/manami/game/static-web/public",
+    "NODE_MODULES": "/Users/j0b04dd/personal/projects/manami/game/static-web/node_modules",
+    "EXCLUDE_MODULES": "/Users/j0b04dd/personal/projects/manami/game/static-web/node_modules",
+    "PACKAGE": "/Users/j0b04dd/personal/projects/manami/game/static-web/package.json",
+    "HTML_TEMPLATE": "/Users/j0b04dd/personal/projects/manami/game/static-web/dist/index.html",
+    "STATIC_DATA": "/Users/j0b04dd/personal/projects/manami/game/static-web/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
